@@ -54,3 +54,12 @@ where,
 - Here is a [notebook](genetic_variation_notebook.ipynb) with a code snippet for loading NA12878's variants from a `tsv` file into a [`pandas`](https://pandas.pydata.org/)'s [`DataFrame`](https://www.geeksforgeeks.org/python-pandas-dataframe/)
 - For the variations density analysis (Part II), consider a sliding window approach with a window size of 1000 (1K) nucleotides. You may read about the sliding window approach [here](https://www.geeksforgeeks.org/window-sliding-technique/) and [here](https://stackoverflow.com/questions/8269916/what-is-sliding-window-algorithm-examples).
 - Here is a [table](https://github.com/ahmedmoustafa/platinum-genomes/blob/main/chromosomes.tsv) with the sizes of the human chromosomes.
+
+## Resources
+
+- [pandas cheat sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
+- [seaborn cheat sheet](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Seaborn_Cheat_Sheet.pdf)
+- [matplotlib cheat sheet](https://matplotlib.org/cheatsheets/cheatsheets.pdf)
+- [matplotlib for beginners](https://camo.githubusercontent.com/b1b8838502a81077591ccadbf45dc45f2207637b41245e557198b680b0a2e662/68747470733a2f2f6d6174706c6f746c69622e6f72672f63686561747368656574732f68616e646f75742d626567696e6e65722e706e67)
+- [numpy cheat sheet](https://assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf)
+- [scipy cheat sheet](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_SciPy_Cheat_Sheet_Linear_Algebra.pdf)
