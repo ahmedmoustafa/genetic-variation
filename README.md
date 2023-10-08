@@ -26,9 +26,18 @@ In this part, write a Python program to:
 3. identify the region on chromosome 16 with the largest number of variations
 4. Are there any genes in the area you identified with the largest number of variations? You may use [The UCSC Genome Browser](https://genome.ucsc.edu/cgi-bin/hgGateway) to explore this region.
 
-To facilitate reading and parsing the VCF file, here is a tab-separated values (`.tsv`) version, compressed [`NA12878.tsv.gz`](https://github.com/ahmedmoustafa/platinum-genomes/blob/main/tsv/NA12878.tsv.gz?raw=true), with the needed fields for the exercise, as shown in the figure below:
+To facilitate reading and parsing the VCF file, here is a tab-separated values (`.tsv`) version, compressed [`NA12878.tsv.gz`](https://github.com/ahmedmoustafa/platinum-genomes/blob/main/tsv/NA12878.tsv.gz?raw=true), with the needed fields for the exercise, as shown in the table below:
 
-![SNPs TSV](tsv.png)
+|       | `chr`| `pos` | `id`                         |`ref`|`alt`|
+|-------|------|-------|------------------------------|-----|-----|
+| 0     | chr1 | 14677 | rs201327123                  | G   | A   |
+| 1     | chr1 | 15922 | rs375964566                  | A   | G   |
+| 2     | chr1 | 15956 | rs112448831                  | G   | A   |
+| 3     | chr1 | 16014 | rs113442401;rs75082847       | C   | T   |
+| 4     | chr1 | 16298 | rs62636498;rs77798508        | C   | T   |
+
+
+This includes the index column at the beginning of the table.
 
 where,
 
