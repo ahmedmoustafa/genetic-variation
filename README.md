@@ -51,6 +51,6 @@ where,
 
 
 ## Hints
-- Here is a [notebook](genetic_variation_notebook.ipynb) with a code snippet for loading NA12878's variants from a `tsv` file into a Pandas [`DataFrame`](https://www.geeksforgeeks.org/python-pandas-dataframe/)
+- Here is a [notebook](genetic_variation_notebook.ipynb) with a code snippet for loading NA12878's variants from a `tsv` file into a [`pandas`](https://pandas.pydata.org/)'s [`DataFrame`](https://www.geeksforgeeks.org/python-pandas-dataframe/)
 - For the variations density analysis (Part II), consider a sliding window approach with a window size of 1000 (1K) nucleotides. You may read about the sliding window approach [here](https://www.geeksforgeeks.org/window-sliding-technique/) and [here](https://stackoverflow.com/questions/8269916/what-is-sliding-window-algorithm-examples).
 - Here is a [table](https://github.com/ahmedmoustafa/platinum-genomes/blob/main/chromosomes.tsv) with the sizes of the human chromosomes.
